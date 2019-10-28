@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "otherpackage": {
+      "type": "git",
+      "url": "https://github.com/raviqqe/otherpackage",
+      "version": "1.2.3",
+      "path": "/"
+    }
+  }
+}
