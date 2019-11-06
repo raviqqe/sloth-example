@@ -1,0 +1,4 @@
+export { baz }
+
+baz : Number -> Number
+baz x = x

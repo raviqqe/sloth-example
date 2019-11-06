@@ -1,0 +1,6 @@
+export { MyType, foo }
+
+type MyType = Number
+
+foo : MyType -> MyType -> MyType
+foo x y = x + y

@@ -1,0 +1,6 @@
+export { foo, Baz.* }
+
+import Bar.Baz
+
+bar : Number -> Number
+bar x = x

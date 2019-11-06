@@ -1,0 +1,11 @@
+{
+  "name": "Foo",
+  "version": "1.2.3",
+  "dependencies": {
+    "Baz": {
+      "url": "https://github.com/raviqqe/Baz",
+      "path": "/",
+      "version": "1.2.3"
+    }
+  }
+}
