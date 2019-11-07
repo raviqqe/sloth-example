@@ -1,6 +1,6 @@
-export { foo, Baz.* }
+export { bar }
 
-import Bar.Baz
+import Package.Bar.Baz
 
 bar : Number -> Number
-bar x = x
+bar x = Baz.baz x

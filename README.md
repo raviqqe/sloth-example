@@ -1,4 +1,4 @@
-# sloth-example
+# ein-example
 
 - Package names are defined by users in `ein.json`.
 - Module names come from their directory names.

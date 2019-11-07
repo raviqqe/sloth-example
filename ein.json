@@ -1,11 +1,11 @@
 {
-  "name": "Foo",
+  "name": "Package",
   "version": "1.2.3",
   "dependencies": {
-    "Baz": {
-      "url": "https://github.com/raviqqe/Baz",
+    "AnotherPackage": {
+      "url": "https://github.com/raviqqe/another-package",
       "path": "/",
-      "version": "1.2.3"
+      "version": "4.2.0"
     }
   }
 }

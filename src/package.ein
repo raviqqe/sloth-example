@@ -1,5 +1,0 @@
-import Foo.Foo
-import Foo.Bar
-
-main : Number -> Number
-main x = Bar.bar (Foo.foo x)

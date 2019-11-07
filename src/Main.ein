@@ -1,0 +1,5 @@
+import Package.Foo
+import Package.Bar
+
+main : Number -> Number
+main x = Bar.bar (Foo.foo x x)
