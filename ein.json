@@ -1,11 +1,12 @@
 {
   "name": "raviqqe/package",
   "version": "1.2.3",
-  "dependencies": {
-    "raviqqe/another-package": {
+  "exposedModules": ["Foo"],
+  "dependencies": [
+    {
       "url": "https://github.com/raviqqe/another-package",
       "path": "/",
       "version": "4.2.0"
     }
-  }
+  ]
 }
