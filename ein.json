@@ -1,12 +1,10 @@
 {
-  "name": "raviqqe/package",
-  "version": "1.2.3",
-  "exposedModules": ["Foo"],
-  "dependencies": [
-    {
-      "url": "https://github.com/raviqqe/another-package",
-      "path": "/",
-      "version": "4.2.0"
-    }
-  ]
+  "target": {
+    "type": "Command"
+  },
+  "dependencies": {
+    "github.com/raviqqe/foo": {},
+    "github.com/raviqqe/bar": { "version": "1.0.0" },
+    "github.com/raviqqe/baz": { "type": "subversion" }
+  }
 }

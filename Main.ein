@@ -1,0 +1,6 @@
+import "github.com/raviqqe/blah/Blah"
+import "./Foo"
+import "./Bar"
+
+main : Number -> Number
+main x = x |> Foo.foo x |> Bar.bar |> Blah.blah

@@ -1,6 +1,6 @@
 export { bar }
 
-import Bar.Baz
+import "./Bar/Baz"
 
 bar : Number -> Number
 bar x = Baz.baz x
