@@ -6,7 +6,7 @@
     "github.com/raviqqe/foo": {},
     "github.com/raviqqe/bar": { "version": "1.0.0" },
     "github.com/raviqqe/baz": { "type": "subversion" },
-    "github.com/raviqqe/bar": {
+    "github.com/raviqqe/blah": {
       "paths": {
         "foo": { "version": "1.0.0" },
         "bar/baz": { "version": "2.0.0" }
